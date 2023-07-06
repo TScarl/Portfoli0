@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap';
 
 function Project1Image() {
-  return <img src="../../assets/images/CineFile.png" alt="Main page of CineFile" />;
+  return <img src="../../assets/images/CineFile.png" alt="Main page of CineFile" className="project-images" />;
 }
 
 function Project1Title() {
@@ -24,21 +24,21 @@ function Project1Links() {
   return (
     <div>
           {/* blank cause a new tab to open for project. noopener noreferrer improves security  */}
-      <a href="https://github.com/zeinahares/Group-Project-1-CineFile" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://zeinahares.github.io/Group-Project-1-CineFile/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      <a href="https://github.com/zeinahares/Group-Project-1-CineFile" target="_blank" rel="noopener noreferrer" className="a-links">GitHub</a>
+      <a href="https://zeinahares.github.io/Group-Project-1-CineFile/" target="_blank" rel="noopener noreferrer" className="a-links">Live Demo</a>
     </div>
   );
 }
 
 function Project1() {
   return (
-    <Card className="project-card"> {/* Use Card component */}
-      <Card.Img variant="top" as={Project1Image} /> {/* Use Card.Img for the image */}
+    <Card className="project-card">
       <Card.Body>
-        <Card.Title as={Project1Title} /> {/* Use Card.Title for the title */}
-        <Card.Text as={Project1Description} /> {/* Use Card.Text for the description */}
+        <Card.Title as={Project1Title} />
+        <Card.Text as={Project1Description} />
       </Card.Body>
-      <Card.Footer as={Project1Links} /> {/* Use Card.Footer for the links */}
+      <Card.Img variant="top" as={Project1Image} />
+      <Card.Footer as={Project1Links} />
     </Card>
   );
 }

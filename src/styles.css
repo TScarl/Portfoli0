@@ -92,3 +92,66 @@ body {
   .userLogo {
     font-size: 50px;   /* no idea why this isn't working... */
   }
+
+  /* portfolio page styles */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.project-images {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a-links {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.a-links:hover {
+    color: #666;
+  }
+
+  /* contact page styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 4px;
+  }

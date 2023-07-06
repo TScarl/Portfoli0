@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Card } from 'react-bootstrap'; // Import Bootstrap Card component
 
 function Project2Image() {
-    return <img src="../assets/images/Noticed.png" alt="Main page of Noticed" />;
+    return <img src="../assets/images/Noticed.png" alt="Main page of Noticed" className="project-images" />;
 }
 
 function Project2Title() {
@@ -22,21 +22,21 @@ function Project2Description() {
 function Project2Links() {
     return (
         <div>
-            <a href="https://github.com/Travisnicholson90/job-board" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://noticed-job-board.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/Travisnicholson90/job-board" target="_blank" rel="noopener noreferrer" className="a-links">GitHub</a>
+            <a href="https://noticed-job-board.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="a-links">Live Demo</a>
         </div>
     );
 }
 
 function Project2() {
     return (
-      <Card className="project-card"> {/* Use Card component */}
-        <Card.Img variant="top" as={Project2Image} /> {/* Use Card.Img for the image */}
+      <Card className="project-card">
         <Card.Body>
-          <Card.Title as={Project2Title} /> {/* Use Card.Title for the title */}
-          <Card.Text as={Project2Description} /> {/* Use Card.Text for the description */}
+          <Card.Title as={Project2Title} />
+          <Card.Text as={Project2Description} />
         </Card.Body>
-        <Card.Footer as={Project2Links} /> {/* Use Card.Footer for the links */}
+        <Card.Img variant="top" as={Project2Image} />
+        <Card.Footer as={Project2Links} />
       </Card>
     );
   }

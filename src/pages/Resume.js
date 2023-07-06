@@ -5,7 +5,7 @@ function Resume() {
 <div>
       <section>
         <p>
-          Download my <span className="resume-link"><a href="../assets/resume/ThomasScarlettResume2022[483].pdf" target="_blank" rel="noopener noreferrer">resume</a></span>
+          Download my <span className="resume-link"><a href="../assets/resume/ThomasScarlettResume2022[483].pdf" target="_blank" rel="noopener noreferrer" className="a-links">resume</a></span>
         </p>
       </section>
 

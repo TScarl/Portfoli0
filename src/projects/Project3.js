@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Card } from 'react-bootstrap'; // Import Bootstrap Card component
 
 function Project3Image() {
-  return <img src="#" alt="#" />;
+  return <img src="#" alt="#...non-existing project/image thus far" className="project-images"/>;
 }
 
 function Project3Title() {
@@ -29,8 +29,8 @@ Overall, The Way of Movement aims to provide a comprehensive platform that combi
 function Project3Links() {
   return (
     <div>
-      {/* <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a> */}
+      {/* <a href="#" target="_blank" rel="noopener noreferrer">GitHub className="a-links"</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Live Demo className="a-links"</a> */}
     </div>
   );
 }
