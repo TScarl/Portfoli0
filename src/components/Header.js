@@ -1,5 +1,6 @@
 import React from "react";
 import { Navigation } from "./Navigation";
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"></link>
 
 export function Header() {
     return (

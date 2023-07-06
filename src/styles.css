@@ -1,0 +1,94 @@
+/* global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D7DBDD;
+  }
+  
+  /* header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-family: 'Lobster', cursive;   /* no idea why this isn't working... */
+    font-size: 24px;
+    margin: 0;
+  }
+
+/* navigation styles */
+  nav {
+    background-color: #333;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navigation-links li {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+  }
+  
+  .footer-links p {
+    margin-right: 30px;
+  }
+  
+  .footer-links a svg {
+    margin-right: 5px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .footer-info {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  /* about page styles */
+  .userLogo {
+    font-size: 50px;   /* no idea why this isn't working... */
+  }

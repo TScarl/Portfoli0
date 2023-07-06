@@ -1,18 +1,22 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export function Footer() {
-    return (
-        <footer>
-        <div className="footer-container">
-          <div className="footer-links">
-            <a href="https://www.linkedin.com/">LinkedIn... doesn't exist yet</a>
-            <a href="https://github.com/TScarl">GitHub</a>
-          </div>
-          <div className="footer-info">
-            <p> Thomas Scarlett </p>
-          </div>
+  return (
+    <footer>
+      <div className="footer-container">
+        <div className="footer-links">
+          <p>
+            <span><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} /></a></span>... doesn't exist yet
+          </p>
+          <p>
+            <span><a href="https://github.com/TScarl" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} /></a></span>My Github account
+          </p>
         </div>
-      </footer>
-    );
+      </div>
+    </footer>
+  );
 }

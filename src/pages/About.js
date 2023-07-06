@@ -1,8 +1,13 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import "../styles.css";
 
 export default function About() {
     return (
         <div className="about-container">
+            <h2>About me</h2>
+            <FontAwesomeIcon icon={faUser} size="lg" className="userLogo" />
             <p>
                 Hello there, allow me to introduce myself, my name is Thomas Scarlett, and I am a passionate budding web developer.
                 I am still relatively new to the art of web development, and I fully recognise I still have much to learn yet, I
