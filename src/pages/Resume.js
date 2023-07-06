@@ -7,6 +7,7 @@ function Resume() {
         <p>
           Download my <span className="resume-link"><a href="../assets/resume/ThomasScarlettResume2022[483].pdf" target="_blank" rel="noopener noreferrer" className="a-links">resume</a></span>
         </p>
+        <p>...resume not currently up to date...</p>
       </section>
 
       <section>

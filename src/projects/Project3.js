@@ -3,7 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Card } from 'react-bootstrap'; // Import Bootstrap Card component
 
 function Project3Image() {
-  return <img src="#" alt="Project3" className="project-images"/>;
+  return (
+    <p>non-existing image for as of yet non-existing project</p>
+  // <img src="#" alt="Project3" className="project-images"/>;
+)
 }
 
 function Project3Title() {
@@ -37,13 +40,13 @@ function Project3Links() {
 
 function Project3() {
   return (
-    <Card className="project-card"> {/* Use Card component */}
-      <Card.Img variant="top" as={Project3Image} /> {/* Use Card.Img for the image */}
+    <Card className="project-card">
       <Card.Body>
-        <Card.Title as={Project3Title} /> {/* Use Card.Title for the title */}
-        <Card.Text as={Project3Description} /> {/* Use Card.Text for the description */}
+        <Card.Title as={Project3Title} />
+        <Card.Text as={Project3Description} />
       </Card.Body>
-      <Card.Footer as={Project3Links} /> {/* Use Card.Footer for the links */}
+      <Card.Img variant="top" as={Project3Image} />
+      <Card.Footer as={Project3Links} />
     </Card>
   );
 }
