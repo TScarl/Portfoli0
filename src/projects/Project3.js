@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Card } from 'react-bootstrap'; // Import Bootstrap Card component
 
 function Project3Image() {
-  return <img src="#" alt="#...non-existing project/image thus far" className="project-images"/>;
+  return <img src="#" alt="Project3" className="project-images"/>;
 }
 
 function Project3Title() {
